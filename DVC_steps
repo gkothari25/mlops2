@@ -1,0 +1,13 @@
+1- COde clone
+2- Run code.py and create a csv inside data folder
+3- push to git 
+4- pip install dvc
+5- dvc init - it will create - dvcignore and dvc file
+6- mkdir s3
+7- dvc remote add -d myremote s3  #add the origin folder s3 to DVC
+8- dvc add data/   #all the files in data file will be tracked
+
+            git rm -r --cached 'data'
+            git commit -m "stop tracking data" 
+
+9-
