@@ -26,5 +26,10 @@
 18- DVC push - it will push the new version of data to s3
 19- DVC status - uptodate
 
+20- git log --oneline - to see the commit history
+21 git checkout <commit_id> - to checkout to the previous version of data
+dvc pull - to pull the data from s3 for that version
+
+
 
 
