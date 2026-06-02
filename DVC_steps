@@ -10,4 +10,11 @@
             git rm -r --cached 'data'
             git commit -m "stop tracking data" 
 
-9-
+9-To track the changes with git, run:        git add data.dvc .gitignore
+
+10 git add.
+11 git commit -m "DVC initiated with data version 1"
+
+12 git status and DVC status - uptodate
+
+13- DVC commit , DVC push
