@@ -18,3 +18,13 @@
 12 git status and DVC status - uptodate
 
 13- DVC commit , DVC push
+14 - run mycode.py file to append new row to the data - 
+15- DVC add data/ - it will track the changes in data file and create a new version of data.dvc file
+16- git add data.dvc
+17- git commit -m "data version 2"
+18- git push  
+18- DVC push - it will push the new version of data to s3
+19- DVC status - uptodate
+
+
+
